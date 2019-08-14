@@ -1,0 +1,2 @@
+../$(OBJS_DIR)/list.o: list.c
+	$(CC) -c $^ -o $@ 
